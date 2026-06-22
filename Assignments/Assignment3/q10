@@ -1,0 +1,5 @@
+#explain how python manages the menory automatically ?
+
+# python has a Garbage collection feature, due to this , unreferenced variable gets automatically deleted by the garbage collector.
+# user need to have to allocated or deallocate the memory like c or c++
+# periodically this garabage collector checks the references to the variable if the reference count to any variable is zero then, it will delete that variable and free the memory allocated to that variable
